@@ -1,0 +1,75 @@
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.pizza-img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pizza-img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .btn {
+    font-size: 14px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  .card {
+    width: 100%; /* Para que se adapte al contenedor */
+    max-width: 280px; /* Tamaño máximo de la tarjeta */
+    margin: 10px auto; /* Espaciado entre tarjetas */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .pizza-img {
+    height: 180px; /* Reducir la altura de la imagen */
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .btn {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  
