@@ -1,7 +1,6 @@
-import { formatCurrency } from "../Utils/formatCurrency.js";
-import "./Navbar.css";
 import { useState } from "react";
-
+import { formatCurrency } from "../../Utils/formatCurrency.js";
+import "./Navbar.css";
 
 function Navbar({ total }) {
   const [token, setToken] = useState(false); // Esto puede quedar si sigues manejando sesión

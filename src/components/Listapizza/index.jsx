@@ -1,5 +1,5 @@
-import { pizzas } from "../data/pizzas.jsx";
-import CardPizza from "./CardPizza";
+import { pizzas } from "../../data/pizzas.jsx";
+import CardPizza from "../CardPizza";
 
 const Listapizza = ({ cart, setCart }) => {
   const agregarAlCarrito = (pizza) => {
